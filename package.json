@@ -5,10 +5,10 @@
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"
   },
-    "targets": {
+   "targets": {
     "default": {
-      "sourceMap": false,
-      "minify": false
+      "minify": false,
+      "sourceMap": false
     }
   },
   "repository": {
