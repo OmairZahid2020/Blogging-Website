@@ -5,6 +5,12 @@
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"
   },
+    "targets": {
+    "default": {
+      "sourceMap": false,
+      "minify": false
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OmairZahid2020/Blogging-Website.git"
